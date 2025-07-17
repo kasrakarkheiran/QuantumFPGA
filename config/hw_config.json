@@ -1,0 +1,59 @@
+{
+    "num_dacs": 8,
+    "dacs": {
+        "0": [
+            "Q0.rdrv",
+            "Q1.rdrv",
+            "Q2.rdrv"
+        ],
+        "1": [
+            "Q0.qdrv"
+        ],
+        "2": [
+            "Q1.qdrv"
+        ],
+        "3": [
+            "Q2.qdrv"
+        ],
+        "4": [
+            "C0.cdrv",
+            "C0.dc"
+        ],
+        "5": [
+            "C1.cdrv",
+            "C1.dc"
+        ],
+        "6": [
+            "C2.cdrv",
+            "C2.dc"
+        ],
+        "7": [
+            "C3.cdrv",
+            "C3.dc"
+        ]
+    },
+    "num_adcs": 1,
+    "adcs": {
+        "0": [
+            "Q0.rdlo",
+            "Q1.rdlo",
+            "Q2.rdlo"
+        ]
+    },
+    "fpga": {
+        "alu_instr_clks": 4,
+        "jump_cond_clks": 6,
+        "jump_fproc_clks": 8,
+        "pulse_regwrite_clks": 3,
+        "pulse_load_clks": 3,
+        "cordic_delay": 47,
+        "phasein_delay": 1,
+        "qclk_delay": 4,
+        "cstrobe_delay": 2,
+        "phase_rst_delay": 9,
+        "freq": 500000000.0,
+        "num_cores": 15
+    },
+    "fproc_measurement_latency": 3,
+    "adc_response_latency": 1
+}

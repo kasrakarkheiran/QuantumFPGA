@@ -1,0 +1,226 @@
+{
+    "fpga_clk_freq": 500000000.0,
+    "Q0.qdrv": {
+        "core_ind": 0,
+        "elem_ind": 0,
+        "core_name": "qubit",
+        "env_mem_name": "qubit_qdrv_env0",
+        "freq_mem_name": "qubit_qdrv_freq0",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 1,
+            "samples_per_clk": 16
+        }
+    },
+    "Q1.qdrv": {
+        "core_ind": 1,
+        "elem_ind": 0,
+        "core_name": "qubit",
+        "env_mem_name": "qubit_qdrv_env1",
+        "freq_mem_name": "qubit_qdrv_freq1",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 1,
+            "samples_per_clk": 16
+        }
+    },
+    "Q2.qdrv": {
+        "core_ind": 2,
+        "elem_ind": 0,
+        "core_name": "qubit",
+        "env_mem_name": "qubit_qdrv_env2",
+        "freq_mem_name": "qubit_qdrv_freq2",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 1,
+            "samples_per_clk": 16
+        }
+    },
+    "Q0.rdrv": {
+        "core_ind": 0,
+        "elem_ind": 1,
+        "core_name": "qubit",
+        "env_mem_name": "qubit_rdrv_env0",
+        "freq_mem_name": "qubit_rdrv_freq0",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 16,
+            "samples_per_clk": 16
+        }
+    },
+    "Q1.rdrv": {
+        "core_ind": 1,
+        "elem_ind": 1,
+        "core_name": "qubit",
+        "env_mem_name": "qubit_rdrv_env1",
+        "freq_mem_name": "qubit_rdrv_freq1",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 16,
+            "samples_per_clk": 16
+        }
+    },
+    "Q2.rdrv": {
+        "core_ind": 2,
+        "elem_ind": 1,
+        "core_name": "qubit",
+        "env_mem_name": "qubit_rdrv_env2",
+        "freq_mem_name": "qubit_rdrv_freq2",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 16,
+            "samples_per_clk": 16
+        }
+    },
+    "Q0.rdlo": {
+        "core_ind": 0,
+        "elem_ind": 2,
+        "core_name": "qubit",
+        "env_mem_name": "qubit_rdlo_env0",
+        "freq_mem_name": "qubit_rdlo_freq0",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 1,
+            "samples_per_clk": 4
+        },
+        "acc_mem_name": "qubit_accbuf0"
+    },
+    "Q1.rdlo": {
+        "core_ind": 1,
+        "elem_ind": 2,
+        "core_name": "qubit",
+        "env_mem_name": "qubit_rdlo_env1",
+        "freq_mem_name": "qubit_rdlo_freq1",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 1,
+            "samples_per_clk": 4
+        },
+        "acc_mem_name": "qubit_accbuf1"
+    },
+    "Q2.rdlo": {
+        "core_ind": 2,
+        "elem_ind": 2,
+        "core_name": "qubit",
+        "env_mem_name": "qubit_rdlo_env2",
+        "freq_mem_name": "qubit_rdlo_freq2",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 1,
+            "samples_per_clk": 4
+        },
+        "acc_mem_name": "qubit_accbuf2"
+    },
+    "C0.cdrv": {
+        "core_ind": 0,
+        "elem_ind": 0,
+        "core_name": "coupler",
+        "env_mem_name": "coupler_cdrv_env0",
+        "freq_mem_name": "coupler_cdrv_freq0",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 1,
+            "samples_per_clk": 16
+        }
+    },
+    "C1.cdrv": {
+        "core_ind": 1,
+        "elem_ind": 0,
+        "core_name": "coupler",
+        "env_mem_name": "coupler_cdrv_env1",
+        "freq_mem_name": "coupler_cdrv_freq1",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 1,
+            "samples_per_clk": 16
+        }
+    },
+    "C2.cdrv": {
+        "core_ind": 2,
+        "elem_ind": 0,
+        "core_name": "coupler",
+        "env_mem_name": "coupler_cdrv_env2",
+        "freq_mem_name": "coupler_cdrv_freq2",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 1,
+            "samples_per_clk": 16
+        }
+    },
+    "C3.cdrv": {
+        "core_ind": 3,
+        "elem_ind": 0,
+        "core_name": "coupler",
+        "env_mem_name": "coupler_cdrv_env3",
+        "freq_mem_name": "coupler_cdrv_freq3",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 1,
+            "samples_per_clk": 16
+        }
+    },
+    "C0.dc": {
+        "core_ind": 0,
+        "elem_ind": 1,
+        "core_name": "coupler",
+        "elem_type": "dc",
+        "elem_params": {}
+    },
+    "C1.dc": {
+        "core_ind": 1,
+        "elem_ind": 1,
+        "core_name": "coupler",
+        "elem_type": "dc",
+        "elem_params": {}
+    },
+    "C2.dc": {
+        "core_ind": 2,
+        "elem_ind": 1,
+        "core_name": "coupler",
+        "elem_type": "dc",
+        "elem_params": {}
+    },
+    "C3.dc": {
+        "core_ind": 3,
+        "elem_ind": 1,
+        "core_name": "coupler",
+        "elem_type": "dc",
+        "elem_params": {}
+    },
+    "Q0.qdrv2": {
+        "core_ind": 0,
+        "elem_ind": 0,
+        "core_name": "drive",
+        "env_mem_name": "drive_qdrv_env0",
+        "freq_mem_name": "drive_qdrv_freq0",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 1,
+            "samples_per_clk": 16
+        }
+    },
+    "Q1.qdrv2": {
+        "core_ind": 1,
+        "elem_ind": 0,
+        "core_name": "drive",
+        "env_mem_name": "drive_qdrv_env1",
+        "freq_mem_name": "drive_qdrv_freq1",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 1,
+            "samples_per_clk": 16
+        }
+    },
+    "Q2.qdrv2": {
+        "core_ind": 2,
+        "elem_ind": 0,
+        "core_name": "drive",
+        "env_mem_name": "drive_qdrv_env2",
+        "freq_mem_name": "drive_qdrv_freq2",
+        "elem_type": "rf",
+        "elem_params": {
+            "interp_ratio": 1,
+            "samples_per_clk": 16
+        }
+    }
+}
